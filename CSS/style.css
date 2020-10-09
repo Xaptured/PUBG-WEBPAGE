@@ -1,0 +1,251 @@
+html{
+    font-family: "helvetica neue","Arial","sans-serif";
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+header{
+    height: 180px;
+    background-color: ghostwhite;
+}
+#header-container{
+    width: 85%;
+    margin: auto;
+}
+.menu{
+    margin-top:70px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: 15px;
+    color: #8e8e8e;
+    padding-right:30px;
+}
+.getStartedButton{
+    background-color: forestgreen;
+    border-radius: 30px;
+    text-decoration: none;
+    color:white;
+    padding:20px 36px;
+    margin-top: 65px;
+    display: inline-block;
+    float:right;
+}
+.col-3{
+    width: 33%;
+    float: left;
+}
+.col-3 .getStartedButton:hover{
+    background-color: #5cbf2a;
+}
+.col-4{
+    width: 24%;
+    float: left;
+    padding-right: 10px;
+}
+.col-2{
+    width: 45%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+#top-section-main{
+    background-image: url(../Images/PUBG-BACKGROUND.jpg);
+    height: 740px;
+    border: none;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+#top-section-content{
+    width=60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+#top-section-content h1{
+    font-size: 4em;
+    font-weight: 200;
+    color:yellow;
+    padding-left:80px;
+    text-align:left;
+    margin-top:0;
+    padding-top: 50px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 5px red ;
+}
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight: 300;
+    color:white;
+    text-align: justify;
+    width: 800px;
+    padding-left: 50px;   
+}
+#map-section h1{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0;
+    padding-bottom: 30px; 
+    text-shadow: 2px 2px 5px red ;
+}
+.map-content{
+    margin: auto;
+    width: 95%;    
+}
+.map-content .col-4 img{
+    width: 100%;
+}
+.map-content .col-4 h3{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 10px;
+}
+.map-content .col-4 p{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    color:gray;
+}
+#feature-container{
+    padding-top: 10px;
+    background-color: ghostwhite;
+    width: 100%;
+    clear:both;
+}
+#feature-container h1{
+   text-align: center;
+   padding-bottom: 50px;
+    font-size: 3em; 
+    text-shadow: 2px 2px 5px red ;
+}
+.feature-section{
+    margin: auto;
+    width: 90%;
+    overflow: auto;
+}
+.feature-section .col-2 img{
+    width: 100%;
+}
+.feature-section .col-2 h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0;
+    word-spacing: 4px;
+    padding-top: 40px;
+}
+.feature-section .col-2 p{
+    text-indent: 50px;
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+.download-background-image{
+    background-image: url(../Images/PUBG-Mobile-download2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+}
+.download-background-image .download-content h1{
+    text-align: center;
+    font-size: 4em;
+    color:yellow;
+    padding-top: 180px;
+    text-shadow: 2px 2px 5px black ;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.download-background-image .download-content p{
+    text-align: center;
+    font-size: 2em;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px darkblue ;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.sign-content{
+    width: 90%;
+    margin: auto;
+}
+.sign-content .hover-box{
+    width: 45%;
+    float: left;
+}
+.sign-content .hover-box:hover{
+    background-color: #ffffff;
+   
+}
+.sign-content .col-2{
+    padding-left: 40px;
+    width:50%;
+    float:left;
+    padding-right: 0;
+    padding-bottom: 20px;
+}
+.sign-content .col-2 h2{
+    text-align: left;
+    font-size: 2em;
+    color:yellow;
+    text-shadow: 2px 2px 5px black ;
+}
+.sign-content .col-2 input{
+    padding-left: 15px;
+    margin: 0;
+    width: 125%;
+    height: 40px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.sign-content .col-2 button{
+    width: 53.5%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    background-color: #6dc77a;
+    color: #ffffff;
+    border: none;
+}
+.sign-content .col-2 button:hover{
+    background-color: #5cbf2a;
+}
+.sign-content .col-2 p{
+    text-align: justify;
+}
+footer{
+    background-color: black;
+    clear: both;
+    height: 500px;
+    background-image: url(../Images/Footerbg.png);
+    background-position: 50% 50%;
+    margin-top: 20px;
+}
+.social-footer{
+    width: 33.3%;
+    float: left;
+    height: 40%;
+}
+.center{
+    width: 75px;
+    margin:auto;
+    padding-top: 60px;
+}
+.social-footer:hover{
+    background-color: black;
+    opacity:0.5;
+}
+.logo-footer{
+    width: 32%;
+    margin: auto;
+    padding-top: 239px;
+}
+.copyright{
+    text-align: center;
+    color: #ffffff;
+    font-size: .9em;
+    display: block;
+    padding-top: 15px;
+}
